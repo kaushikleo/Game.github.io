@@ -113,5 +113,5 @@ function restart(){
 loop();
 
 var instructions = document.createElement("div");
-instructions.innerHTML += "[up] [down] = accelerate <br> [Left] [Rigth] = rotate. <br>";
+instructions.innerHTML += "[up] [down] = accelerate <br> [Left] [Right] = rotate. <br>";
 document.body.appendChild(instructions);
